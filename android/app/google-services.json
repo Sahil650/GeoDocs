@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17664552951",
+    "project_id": "geo-fusion-app-1e018",
+    "storage_bucket": "geo-fusion-app-1e018.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17664552951:android:970f61078fc1707db508f2",
+        "android_client_info": {
+          "package_name": "com.example.gps_map_camera_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkwHkbCtTC3UYtliA-5BEbSOep0SLzwbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
