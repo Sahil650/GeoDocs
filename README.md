@@ -58,9 +58,27 @@ sequenceDiagram
 - **Firebase Project**: Configured via the [Firebase Console](https://console.firebase.google.com/).
 
 ### Installation
-1.  **Pub Get**: `flutter pub get`
-2.  **Firebase**: Place `google-services.json` in `android/app/`.
-3.  **Run**: `flutter run`
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Sahil650/GeoDocs.git
+   cd gps_map_camera_app
+   ```
+2. **Install dependencies**: 
+   ```bash
+   flutter pub get
+   ```
+3. **Firebase Setup** *(Required because config files are not tracked in Git)*:
+   - Create a project on the [Firebase Console](https://console.firebase.google.com/).
+   - Add an Android app with your package name (e.g., `com.example.gps_map_camera_app`).
+   - Download the `google-services.json` file and place it inside `android/app/`.
+   - Install the Firebase CLI and run the following command at the root of the project to generate `firebase_options.dart`:
+     ```bash
+     flutterfire configure
+     ```
+4. **Run the app**: 
+   ```bash
+   flutter run
+   ```
 
 ---
 
